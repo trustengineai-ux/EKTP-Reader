@@ -1,11 +1,9 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme -->
-    <style name="Theme.TrustEngineVerifier" parent="android:Theme.Material.Light.NoActionBar">
-        <item name="android:colorPrimary">@color/trustengine_primary</item>
-        <item name="android:colorPrimaryDark">@color/trustengine_primary_dark</item>
-        <item name="android:colorAccent">@color/trustengine_accent</item>
-        <item name="android:statusBarColor">@color/trustengine_primary</item>
-        <item name="android:windowLightStatusBar">false</item>
-        <item name="android:navigationBarColor">@color/trustengine_primary</item>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.KtpReader" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">#00C878</item>
+        <item name="colorPrimaryDark">#00A060</item>
+        <item name="colorAccent">#2196F3</item>
+        <item name="android:statusBarColor">#1A3554</item>
     </style>
 </resources>
